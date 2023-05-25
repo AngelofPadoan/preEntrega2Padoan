@@ -56,14 +56,16 @@ article{
     padding-right: 200px;
 }
 
-@media screen and (max-width: 250px) {
+/* @media screen and (max-width: 250px) {
     .container3 {
         width: 150px;
         height: 150px;
     }
-}
+} */
 
 .container3{
+    display: flex;
+    overflow: hidden;
     margin-bottom: 20px;
     border: 2px solid black;
 }
